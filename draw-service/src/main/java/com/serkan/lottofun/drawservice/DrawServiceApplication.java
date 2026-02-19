@@ -1,0 +1,18 @@
+package com.serkan.lottofun.drawservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@EnableJpaRepositories
+@EnableScheduling
+@SpringBootApplication
+public class DrawServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DrawServiceApplication.class, args);
+    }
+
+}

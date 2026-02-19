@@ -1,0 +1,3 @@
+CREATE DATABASE authdb;
+CREATE DATABASE drawdb;
+CREATE DATABASE ticketdb;

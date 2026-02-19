@@ -1,0 +1,23 @@
+#spring:
+#  application:
+#    name: auth-service
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authdb
+    username: postgres
+    password: 1618
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  sql:
+    init:
+      mode: never
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
